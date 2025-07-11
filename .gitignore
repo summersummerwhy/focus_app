@@ -33,13 +33,34 @@ client/local.properties
 # NestJS (server/)
 # --------------------------
 
+# compiled output
 server/node_modules/
 server/dist/
+server/build/
+
+# dotenv environment variable files
 server/.env
-server/.DS_Store
-server/.vscode/
+server/.env.development.local
+server/.env.test.local
+server/.env.production.local
+server/.env.local
+
+# Tests
 server/coverage/
+server/.nyc_output/
 server/*.log
+server/report.*.json
+
+# Runtime data
+server/pids
+server/*.pid
+server/*.seed
+server/*.pid.lock
+
+# temp directory
+server/.temp/
+server/.tmp/
+
 
 # TypeScript build cache
 server/.turbo/
@@ -52,6 +73,22 @@ server/.tsbuildinfo
 .DS_Store
 Thumbs.db
 *.swp
+
+# --------------------------
+# IDE / Editor (공통)
+# --------------------------
+
 .idea/
-.vscode/
-*.log
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# VSCode workspace (allow only configs)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

@@ -1,0 +1,57 @@
+# --------------------------
+# Flutter (client/)
+# --------------------------
+
+client/.dart_tool/
+client/.packages
+client/.flutter-plugins
+client/.flutter-plugins-dependencies
+client/.idea/
+client/.vscode/
+client/build/
+client/ios/Pods/
+client/pubspec.lock
+
+# Flutter generated files
+client/flutter_*.png
+client/android/local.properties
+
+# Xcode
+client/ios/Runner.xcworkspace/
+client/ios/Flutter/Flutter.framework
+client/ios/Flutter/Flutter.podspec
+client/ios/Flutter/Generated.xcconfig
+client/ios/Flutter/App.framework
+client/ios/Flutter/engine/
+
+# Android Studio
+client/.android/
+client/.gradle/
+client/local.properties
+
+# --------------------------
+# NestJS (server/)
+# --------------------------
+
+server/node_modules/
+server/dist/
+server/.env
+server/.DS_Store
+server/.vscode/
+server/coverage/
+server/*.log
+
+# TypeScript build cache
+server/.turbo/
+server/.tsbuildinfo
+
+# --------------------------
+# macOS / System
+# --------------------------
+
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.log
